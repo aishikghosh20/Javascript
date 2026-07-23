@@ -1,0 +1,9 @@
+*.exe
+.vscode/
+tempCodeRunnerFile.py
+testgit/
+build/
+__pycache__
+.gitattributes
+.env
+temp.py
