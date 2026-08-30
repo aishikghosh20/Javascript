@@ -1,0 +1,88 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height:100%;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    margin: 0;
+}
+
+#header{
+    margin-top: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.2rem;
+    color: hsl(0, 0%, 20%);
+}
+
+#choice{
+    width: 40%;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.choices{
+    margin-bottom: 3.7rem;
+    margin-top: 1.2rem;
+}
+
+button{
+    font-size: 5rem;
+    min-width: 8rem;
+    min-height: 8rem;
+    margin: 0 1.2rem;
+    text-align: center;
+    border-radius: 50%;
+    border: none;
+    background-color: hsl(200, 80%, 50%);
+    box-shadow: 0 0 8px rgba(5, 50, 139, 0.809);
+    cursor: pointer;
+    transition: background-color 0.5s ease, font-size 0.25s, min-width 0.25s, min-height 0.25s;
+}
+
+button:hover{
+    background-color: hsl(200, 80%, 60%);
+    min-width: 10rem;
+    min-height: 10rem;
+    box-shadow: 0 0 13px rgba(8, 141, 242, 0.952),
+                0 0 11px rgb(8, 48, 128);
+    font-size: 6.5rem;
+}
+
+button:active{
+    background-color: hsl(200, 80%, 70%);
+}
+
+#playerdisplay, #compdisplay{
+    font-size: 2rem;
+    font-family:Verdana;
+}
+
+#result{
+    font-size: 2.5rem;
+    margin: 3.4rem 0;
+    font-family:Verdana;
+}
+
+.greentext, #playerscoredisplay{
+    color: hsl(130, 84%, 54%);
+}
+.redtext, #computerscoredisplay{
+    color: hsl(0, 84%, 60%);
+}
+.yellowtext{
+    color: hsl(45, 84%, 50%);
+}
+
+.scoredisplay{
+    font-size: 2.3rem;
+}
